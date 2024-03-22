@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.course-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.course-card {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.course-details {
+    display: none;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

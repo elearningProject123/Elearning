@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Playlist</title>
+    <style>
+       
+
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: lightgray;
+            }
+            li{
+                float:left
+            }
+            li a{
+                display:block;
+                color: black;
+              font-size: 20px;
+              padding: 10px 20px;
+              text-decoration: none;
+            }
+            .active{
+                background-color: grey;
+                color: black;
+            }
+            li a hover{
+                background-color: white;
+                color: black;
+            }
+    
+            
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 5px;
+            color: white;
+            background-color: black;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        .books-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .books {
+            width: 300px;
+            margin: 20px;
+            color: black;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+          }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Books...!</h1>
+    </header>
+    <ul><li><a class="active" href="home1.html">
+        Home</a></li>
+    <!-- <li><a href="l.php"> Login</a></li> -->
+    <!-- <li><a href="newuser.html"> New Registration</a></li> -->
+    <!-- <li><a href="profile.php"> Profile</a></li> -->
+    <li><a href="lout.php">Logout</a></li> 
+</ul>
+
+    <div class="books-container">
+         
+        <div class="books">
+            <h2>Book 1: Introduction</h2>
+           <a href="https://drive.google.com/file/d/1u_zD6TQDw5DqSUQpwpAxoOEtuvtU0jfw/view?usp=drivesdk"
+    alt="sample pdf"><img
+      src="images/java.jpeg"
+      height=300px width=300px margin=10px></a>
+        </div>
+   
+
+        <div class="books">
+             <h2>Book 2: Basic</h2>
+            <a href="https://drive.google.com/file/d/1u_zD6TQDw5DqSUQpwpAxoOEtuvtU0jfw/view?usp=drivesdk"
+    alt="sample pdf"><img
+      src="images/st.jpeg"
+      height=300px width=300px margin=10px></a>
+        </div>
+
+        <div class="books">
+            <h2>Book 3: Advanced</h2>
+            <a href="https://drive.google.com/file/d/1u_zD6TQDw5DqSUQpwpAxoOEtuvtU0jfw/view?usp=drivesdk"
+    alt="sample pdf"><img
+      src="images/wt.jpeg"
+      height=300px width=300px margin=10px></a>
+        </div>
+
+       
+        </div>
+    </div>
+
+    <footer class="footer">
+
+        &copy; kvn student developed <span> designer </span> | all rights reserved!
+     
+     
+     </footer>
+
+</body>
+</html>
